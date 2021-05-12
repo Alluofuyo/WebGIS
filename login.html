@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="login_container">
+      <div class="login_header">
+        LOGIN
+      </div>
+      <div class="login_body">
+        <form accept="javascript:login();" id="login_form">
+          <div class="input_group">
+            <label for="username">Username:</label>
+            <input type="text" name="username">
+          </div>
+          <div class="input_group">
+            <label for="password">Password:</label>
+            <input type="password" name="password">
+          </div>
+          <div class="info">
+            <span id="message"></span>
+          </div>
+          <div class="button_group">
+            <button onclick="login()">login</button>
+          </div>
+          <div class="login_footer">
+            <div>
+              <a href="./regist.html">Go->Regist</a>
+            </div>
+            <div>
+              <a href="./forgetPass.html">Forget Password?</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    © All Rights Reserved By Alluofuyo. <br>
+    <Address>
+      Contact Email: Alluofuyo@189.cn
+    </Address>
+  </footer>
+
+  <!--     load script    -->
+  <script src="./js/login.js"></script>
+</body>
+
+</html>

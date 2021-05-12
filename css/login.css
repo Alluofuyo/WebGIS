@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Comicbon";
+    src: url("../font/Comicbon\ -\ personal\ use.ttf");
+}
+
+.login_container {
+    background-color: rgba(15, 14, 13, 0.8);
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.login_header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-family: 'Crimson Foam Font', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.footer {
+    text-align: right;
+    font-size: 14px;
+}
+
+.login_body {
+    margin-top: 50px;
+    padding-right: 60px;
+}
+
+.input_group {
+    margin-bottom: 10px;
+    transform: translateX(-15px);
+}
+
+.input_group label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 5px;
+    text-align: right;
+    color: lavenderblush;
+}
+
+.input_group input {
+    background-color: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    border-bottom-color: ivory;
+    width: auto;
+    height: 20px;
+}
+
+.required{
+  color: red;
+  margin-right: 5px;
+}
+
+#send_code_button{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(51, 133, 122);
+  border: none;
+  border-radius: 3px;
+}
+#send_code_button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 85, 77);
+    cursor: pointer;
+}
+
+.info{
+  margin-left: 80px;
+  text-align: left;
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.send_code_container{
+  text-align: right;
+  margin-right: 20px;
+  height: 50px;
+}
+
+@keyframes border_color_animation {
+    from {
+        border-color: ivory;
+    }
+    to {
+        border-color: #66afe9;
+    }
+}
+
+.input_group input:focus {
+    outline: 0;
+    background-color: inherit;
+    border-color: #66afe9;
+    height: 20px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    animation: border_color_animation 0.5s;
+}
+.button_group{
+  text-align: right;
+  margin-right: 20px;
+}
+.button_group button {
+    margin-top: 30px;
+    width: 120px;
+    height: 35px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 133, 122);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button_group button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 85, 77);
+    cursor: pointer;
+}
+
+
+.login_footer{
+  margin-right: 20px;
+  margin-top: 30px;
+  text-align: right;
+}
+.login_footer a {
+    text-decoration: none;
+    color: rgb(233, 220, 220);
+}
+
+.login_footer a:hover {
+    text-decoration: none;
+    color: rgb(118, 202, 143);
+}

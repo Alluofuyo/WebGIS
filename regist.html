@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regist</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="login_container">
+        <div class="login_header">
+          REGIST
+        </div>
+        <div class="login_body">
+          <form class="form" action="#" onsubmit="javascript:checkRegist()">
+            <div class="input_group">
+              <label for="username"><span class="required">*</span>Username:</label>
+              <input type="text" onblur="javascript:checkUsername()" name="username">
+              <div class="info">
+                <span id="username_message"></span>
+              </div>
+            </div>
+            <div class="input_group">
+              <label for="password"><span class="required">*</span>Password:</label>
+              <input type="password" onblur="javascript:checkPassword()" name="password">
+              <div class="info">
+                <span id="password_message"></span>
+              </div>
+            </div>
+            <div class="input_group">
+              <label for="repeat_password"><span class="required">*</span>Repeat Password:</label>
+              <input type="password" onblur="javascript:checkRepeatPassword()" name="repeat_password">
+              <div class="info">
+                <span id="repeat_password_message"></span>
+              </div>
+            </div>
+            <div class="input_group">
+              <label for="email"><span class="required">*</span>Email:</label>
+              <input type="text" onblur="javascript:checkEmail()" name="email">
+              <div class="info">
+                <span id="email_message"></span>
+              </div>
+            </div>
+            <div class="send_code_container">
+              <button id="send_code_button">Send Code</button>
+            </div>
+            <div class="input_group">
+              <label for="verify_code"><span class="required">*</span>Verify Code:</label>
+              <input type="text" onblur="javascript:checkVerifyCode()" name="verify_code">
+              <div class="info">
+                <span id="verify_code_message"></span>
+              </div>
+            </div>
+            <div class="button_group">
+              <button type="submit">Regist</button>
+            </div>
+            <div class="login_footer">
+              <a href="./login.html">Go->Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    © All Rights Reserved By Alluofuyo. <br>
+    <Address>
+      Contact Email: Alluofuyo@189.cn
+    </Address>
+  </footer>
+
+  <!--    load script    -->
+  <script src="./js/resigt.js"></script>
+</body>
+
+</html>

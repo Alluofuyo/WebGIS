@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+footer{
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+}
